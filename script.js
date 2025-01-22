@@ -4,3 +4,8 @@ function toggleMenu(){
     menu.classList.toggle("open")
     icon.classList.toggle("open")
 }
+
+function toggleSunglasses(){
+    const glasses = document.querySelector(".sunglasses");
+    glasses.classList.toggle("sunglasses-on")
+}
