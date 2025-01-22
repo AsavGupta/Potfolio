@@ -36,8 +36,8 @@
         </div>
     </nav>
     <section id="profile">
-        <div class="section__pic-container">
-            <img src="./assets/AsavCircleCropUpscale.png" alt="Asav Gupta Profile Picture">
+        <div class="section__pic-container profile__pic-container" onclick="toggleSunglasses()">
+            <img src="assets/pixelSunglasses.png" alt="Pixel Sunglasses" class="sunglasses"/>
         </div>
         <div class="section__text">
             <p class="section__text__p1">Hello, I'm</p>
@@ -86,8 +86,8 @@
                         src="assets/experience.png" 
                         alt="Experience Icon" 
                         class="icon"/>
-                        <h3>Experience</h3>
-                        <p>Junior Year<br />Central High School</p>
+                        <h3>Activities</h3>
+                        <p>Band, Jazz Band,<br/>Quiz Bowl, Tennis, and More!</p>
                     </div>
                     <div class="details-container">
                         <img 
@@ -95,11 +95,15 @@
                         alt="Education Icon" 
                         class="icon"/>
                         <h3>Eductaion</h3>
-                        <p>Junior Year<br />Central High School</p>
+                        <p>Junior Year<br/>Central High School</p>
                     </div>
                 </div>
                 <div class="text-container">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore qui cupiditate consequuntur voluptatem ullam expedita asperiores sit, similique ratione quasi, culpa, in blanditiis. Expedita illum labore corrupti quam dicta dolorem!</p>
+                    <p>As an aspiring Computer Scientist, I love to make fun projects such as this website! I spend most of my time dedicated to music, sports, and academics since I try to be the best at everything I do.</p>
+                    <div class="current-container">
+                        <p class="current-objective">Currently:</p>
+                        <p>Looking for a Tech Internship for the Summer</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -335,7 +339,7 @@
     // light theme colors
     #define colour_1 vec4(1, 1, 1, 1.0)
     #define colour_2 vec4(0.9, 0.9, 1, 1.0)
-    #define colour_3 vec4(0.8, 0.8, 1.2, 1.0)
+    #define colour_3 vec4(0.8, 0.8, 1.6, 1.0)
 
     uniform vec2 iResolution;
     uniform float iTime;

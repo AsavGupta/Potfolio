@@ -8,6 +8,8 @@
     --white: #f3f3f3;
     --trans-white: rgb(255, 255, 255, 0.4);
     --trans-black: rgb(150, 150, 150, 0.4);
+    --purple: #9b9aff;
+    --dark-purple: #6866e9;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
@@ -46,6 +48,14 @@ a, .btn{
 nav, 
 .nav-links {
     display: flex;
+}
+
+li{
+    transition: all 300ms ease-in-out;
+}
+
+li:hover{
+    transform: translateY(-3px);
 }
 
 nav {
@@ -111,6 +121,7 @@ a:hover{
 
 .menu-links{
     position: absolute;
+    z-index: 2;
     top: 100%;
     right: 0%;
     background-color: var(--white);
@@ -190,10 +201,37 @@ section{
 }
 
 .section__pic-container{
+    position: relative;
     display: flex;
     height: 400px;
     width: 400px;
     margin: auto 0;
+}
+
+.profile__pic-container{
+    border: var(--dark-grey) 0.5rem solid;
+    border-radius: 50%;
+    transition: all 300ms ease-in-out;
+    background-image: url("/assets/AsavCircleCropUpscale.png");
+    background-size:cover
+}
+
+.profile__pic-container:hover{
+    border-color: var(--dark-purple);
+}
+
+.sunglasses{
+    display: none;
+    z-index: 1;
+    position: relative;
+    height: 50%;
+    top: 13%;
+    right: -21%;
+    rotate: -5deg;
+}
+
+.sunglasses-on{
+    display: inline;
 }
 
 .section__text{
@@ -231,8 +269,13 @@ section{
 /* ICONS */
 
 .icon{
+    transition: all 300ms ease-in-out;
     cursor: pointer;
     height: 2rem;
+}
+
+.icon:hover{
+    transform: translateY(-2px);
 }
 
 
@@ -259,6 +302,7 @@ section{
 
 .btn-color-1:hover, 
 .btn-color-2:hover{
+    transform: translateY(-3px);
     cursor: pointer;
 }
 
@@ -336,6 +380,21 @@ section{
     height: 400px;
     width: 400px;
     margin: auto 0;
+}
+
+.current-container{
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.current-container p{
+    
+}
+
+.current-objective{
+    font-size: 140%;
+    font-weight: 600;
+    color: var(--black);
 }
 
 
