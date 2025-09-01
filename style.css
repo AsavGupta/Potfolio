@@ -356,6 +356,13 @@ section{
     border: var(--dark-grey)0.1rem solid;
 }
 
+.website-link{
+    color: var(--black);
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    text-decoration-color: var(--light-grey);
+}
+
 .arrow{
     position: absolute;
     right: -5rem;
