@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,17 +9,18 @@
     <link rel="stylesheet" href="mediaqueries.css" />
     <link rel="icon" type="image/x-icon" href="assets/HomePageLogo.png" />
 </head>
+
 <body>
     <nav id="desktop-nav">
-     <div class="logo">Asav Gupta</div>
-     <div>
-        <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-     </div>
+        <div class="logo">Asav Gupta</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
     </nav>
     <nav id="hamburger-nav">
         <div class="logo">Asav Gupta</div>
@@ -38,78 +40,60 @@
     </nav>
     <section id="profile">
         <div class="section__pic-container profile__pic-container" onclick="toggleSunglasses()">
-            <img src="assets/pixelSunglasses.png" alt="Pixel Sunglasses" class="sunglasses"/>
+            <img src="assets/pixelSunglasses.png" alt="Pixel Sunglasses" class="sunglasses" />
         </div>
         <div class="section__text">
             <p class="section__text__p1">Hello, I'm</p>
             <h1 class="title">Asav Gupta</h1>
             <p class="section__text__p2">High School Student</p>
             <div class="btn-container">
-                <button class="btn btn-color-2" 
-                onclick="window.open('./assets/Asav_Gupta_CV.pdf')"
-                >Download CV
+                <button class="btn btn-color-2" onclick="window.open('./assets/Asav_Gupta_CV.pdf')">Download CV
                 </button>
-                <button class="btn btn-color-1" 
-                onclick="location.href='./#contact'"
-                > Contact Info
+                <button class="btn btn-color-1" onclick="location.href='./#contact'"> Contact Info
                 </button>
             </div>
             <div id="socials-container">
-                <img src="./assets/linkedin.png" 
-                alt="My LinkedIn Profile" 
-                class="icon"
-                onclick="window.open('https://www.linkedin.com/in/asavgupta/','_blank')"
-                />
-                <img src="./assets/github.png" 
-                alt="My Github Profile" 
-                class="icon"
-                onclick="window.open('https://www.github.com/AsavGupta','_blank')"
-                />
+                <img src="./assets/linkedin.png" alt="My LinkedIn Profile" class="icon"
+                    onclick="window.open('https://www.linkedin.com/in/asavgupta/','_blank')" />
+                <img src="./assets/github.png" alt="My Github Profile" class="icon"
+                    onclick="window.open('https://www.github.com/AsavGupta','_blank')" />
             </div>
         </div>
-        <img src="assets/arrow.png" alt="Arrow icon" class="icon arrow" 
-        onclick="location.href='./#about'"/>
+        <img src="assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#about'" />
     </section>
     <section id="about">
         <p class="section__text__p1">Get To Know More</p>
         <h1 class="title">About Me</h1>
         <div class="section-container">
             <div class="section__pic-container">
-                <img 
-                src="assets/AboutPhoto2.png" 
-                alt="Profile Picture" 
-                class="about-pic"/>
+                <img src="assets/AboutPhoto2.png" alt="Profile Picture" class="about-pic" />
             </div>
             <div class="about-details-container">
                 <div class="about-containers">
                     <div class="details-container">
-                        <img 
-                        src="assets/experience.png" 
-                        alt="Experience Icon" 
-                        class="icon"/>
+                        <img src="assets/experience.png" alt="Experience Icon" class="icon" />
                         <h3>Activities</h3>
-                        <p>Band, Jazz Band,<br/>Quiz Bowl, Tennis, and More!</p>
+                        <p>Band, Jazz Band,<br />Quiz Bowl, Tennis, and More!</p>
                     </div>
                     <div class="details-container">
-                        <img 
-                        src="assets/education.png" 
-                        alt="Education Icon" 
-                        class="icon"/>
+                        <img src="assets/education.png" alt="Education Icon" class="icon" />
                         <h3>Eductaion</h3>
-                        <p>Senior Year<br/>Central High School</p>
+                        <p>Senior Year<br />Central High School</p>
                     </div>
                 </div>
                 <div class="text-container">
-                    <p>As an aspiring Computer Scientist, I love to make fun projects such as this website! I spend most of my time dedicated to music, sports, and academics since I try to be the best at everything I do.</p>
+                    <p>As an aspiring Computer Scientist, I love to make fun projects such as this website! I spend most
+                        of my time dedicated to music, sports, and academics since I try to be the best at everything I
+                        do.</p>
                     <div class="current-container">
                         <p class="current-objective">Currently:</p>
-                        <p>Interning with <a href="https://www.valuestreamconsulting.com/" class="website-link">Value Stream Consulting</a></p>
+                        <p>Interning with <a href="https://www.valuestreamconsulting.com/" class="website-link">Value
+                                Stream Consulting</a></p>
                     </div>
                 </div>
             </div>
         </div>
-        <img src="assets/arrow.png" alt="Arrow icon" class="icon arrow" 
-        onclick="location.href='./#experience'"/>
+        <img src="assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
     </section>
     <section id="experience">
         <p class="section__text__p1">Explore My</p>
@@ -120,54 +104,42 @@
                     <h2 class="experience-sub-title">Hard Skills</h2>
                     <div class="article-container">
                         <article>
-                            <img src="/assets/checkmark.png" 
-                            alt="Experience" 
-                            class="icon"/>
+                            <img src="/assets/checkmark.png" alt="Experience" class="icon" />
                             <div>
                                 <h3>HTML/CSS</h3>
                                 <p>Intermediate</p>
                             </div>
                         </article>
                         <article>
-                            <img src="/assets/checkmark.png" 
-                            alt="Experience" 
-                            class="icon"/>
+                            <img src="/assets/checkmark.png" alt="Experience" class="icon" />
                             <div>
                                 <h3>Python/Jupyter</h3>
                                 <p>Intermediate</p>
                             </div>
                         </article>
                         <article>
-                            <img src="/assets/checkmark.png" 
-                            alt="Experience" 
-                            class="icon"/>
+                            <img src="/assets/checkmark.png" alt="Experience" class="icon" />
                             <div>
                                 <h3>Java</h3>
                                 <p>Proficient</p>
                             </div>
                         </article>
                         <article>
-                            <img src="/assets/checkmark.png" 
-                            alt="Experience" 
-                            class="icon"/>
+                            <img src="/assets/checkmark.png" alt="Experience" class="icon" />
                             <div>
                                 <h3>C#</h3>
                                 <p>Proficient</p>
                             </div>
                         </article>
                         <article>
-                            <img src="/assets/checkmark.png" 
-                            alt="Experience" 
-                            class="icon"/>
+                            <img src="/assets/checkmark.png" alt="Experience" class="icon" />
                             <div>
                                 <h3>Unity</h3>
                                 <p>Proficient</p>
                             </div>
                         </article>
                         <article>
-                            <img src="/assets/checkmark.png" 
-                            alt="Experience" 
-                            class="icon"/>
+                            <img src="/assets/checkmark.png" alt="Experience" class="icon" />
                             <div>
                                 <h3>IntelliJIDEA</h3>
                                 <p>Intermediate</p>
@@ -179,36 +151,28 @@
                     <h2 class="experience-sub-title">Soft Skills</h2>
                     <div class="article-container">
                         <article>
-                            <img src="/assets/checkmark.png" 
-                            alt="Experience" 
-                            class="icon"/>
+                            <img src="/assets/checkmark.png" alt="Experience" class="icon" />
                             <div>
                                 <h3>Leadership</h3>
                                 <p>Leadership positions in Band, NHS, Quiz Bowl, and Math Club</p>
                             </div>
                         </article>
                         <article>
-                            <img src="/assets/checkmark.png" 
-                            alt="Experience" 
-                            class="icon"/>
+                            <img src="/assets/checkmark.png" alt="Experience" class="icon" />
                             <div>
                                 <h3>Hard Working</h3>
                                 <p>Achieved Honors in All Activities</p>
                             </div>
                         </article>
                         <article>
-                            <img src="/assets/checkmark.png" 
-                            alt="Experience" 
-                            class="icon"/>
+                            <img src="/assets/checkmark.png" alt="Experience" class="icon" />
                             <div>
                                 <h3>Volunteering</h3>
                                 <p>~100 Hours in Various Activities</p>
                             </div>
                         </article>
                         <article>
-                            <img src="/assets/checkmark.png" 
-                            alt="Experience" 
-                            class="icon"/>
+                            <img src="/assets/checkmark.png" alt="Experience" class="icon" />
                             <div>
                                 <h3>Academics</h3>
                                 <p>36 ACT, 4.00GPA (Unweighted)</p>
@@ -218,8 +182,7 @@
                 </div>
             </div>
         </div>
-        <img src="assets/arrow.png" alt="Arrow icon" class="icon arrow" 
-        onclick="location.href='./#projects'"/>
+        <img src="assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
     </section>
     <section id="projects">
         <p class="section__text__p1">Browse My Recent</p>
@@ -227,42 +190,52 @@
         <div class="experience-details-container">
             <div class="about-containers">
                 <div class="details-container color-container">
-                <div class="article-container">
-                    <img 
-                    src="/assets/WeatherProject.png" 
-                    alt="Project 1" 
-                    class="project-img"/>
-                </div>
-                <h2 class="experience-sub-title project-title">Weather App</h2>
-                <div class="btn-container">
-                    <button class="btn btn-color-2 project-btn"
-                    onclick="window.open('https://github.com/AsavGupta/Weather-App','_blank')">
-                        Github
-                    </button>
-                    <button class="btn btn-color-2 project-btn"
-                    onclick="window.open('https://www.youtube.com/watch?v=S4FfoZ5a6pg','_blank')">
-                        Demo
-                    </button>
-                </div>
+                    <div class="article-container">
+                        <img src="/assets/WeatherProject.png" alt="Project 1" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Weather App</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="window.open('https://github.com/AsavGupta/Weather-App','_blank')">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="window.open('https://www.youtube.com/watch?v=S4FfoZ5a6pg','_blank')">
+                            Demo
+                        </button>
+                    </div>
                 </div>
                 <div class="details-container color-container">
-                <div class="article-container">
-                    <img 
-                    src="/assets/DuckHuntProject.png" 
-                    alt="Project 2" 
-                    class="project-img"/>
+                    <div class="article-container">
+                        <img src="/assets/DuckHuntProject.png" alt="Project 2" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Duck Hunt Recreation</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="window.open('https://github.com/AsavGupta/Duck-Hunt','_blank')">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="window.open('https://youtu.be/13LFG8x7a0U','_blank')">
+                            Demo
+                        </button>
+                    </div>
                 </div>
-                <h2 class="experience-sub-title project-title">Duck Hunt Recreation</h2>
-                <div class="btn-container">
-                    <button class="btn btn-color-2 project-btn"
-                    onclick="window.open('https://github.com/AsavGupta/Duck-Hunt','_blank')">
-                        Github
-                    </button>
-                    <button class="btn btn-color-2 project-btn"
-                    onclick="window.open('https://youtu.be/13LFG8x7a0U','_blank')">
-                        Demo
-                    </button>
-                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="/assets/ToDoListProject.PNG" alt="Project 3" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">To Do List</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="window.open('https://www.github.com/AsavGupta/To-Do-List','_blank')">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="window.open('https://www.github.com/AsavGupta','_blank')">
+                            Live Demo
+                        </button>
+                    </div>
                 </div>
                 <!--<div class="details-container color-container">
                 <div class="article-container">
@@ -285,19 +258,18 @@
                 </div>-->
             </div>
         </div>
-        <img src="assets/arrow.png" alt="Arrow icon" class="icon arrow" 
-        onclick="location.href='./#contact'"/>
+        <img src="assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
     </section>
     <section id="contact">
         <p class="section__text__p1">Get in Touch</p>
         <h1 class="title">Contact Me</h1>
         <div class="contact-info-upper-container">
             <div class="contact-info-container">
-                <img src="/assets/email.png" alt="Email icon" class="icon contact-icon email-icon"/>
+                <img src="/assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
                 <p><a href=mailto:"asavrg@gmail.com">Asavrg@gmail.com</a></p>
             </div>
             <div class="contact-info-container">
-                <img src="/assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon"/>
+                <img src="/assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
                 <p><a onclick="window.open('https://www.linkedin.com/in/asavgupta/','_blank')">LinkedIn</a></p>
             </div>
         </div>
@@ -318,7 +290,7 @@
     <script src="script.js"></script>
 </body>
 <script src="https://xemantic.github.io/shader-web-background/dist/shader-web-background.min.js"></script>
-    <script type="x-shader/x-fragment" id="image">
+<script type="x-shader/x-fragment" id="image">
     precision mediump float;
     #define SPIN_EASE 0.8
     #define spin_time 5.
@@ -380,21 +352,22 @@
       gl_FragColor = (0.3/contrast)*colour_1 + (1. - 0.3/contrast)*(colour_1*c1p + colour_2*c2p + vec4(c3p*colour_3.rgb, c3p*colour_1.a));
     }
   </script>
-    <script>
-        let t = 0;
-        requestAnimationFrame(function update() {
-            t += 1 / 120;
-            requestAnimationFrame(update);
-        });
-        shaderWebBackground.shade({
-            shaders: {
-                image: {
-                    uniforms: {
-                        iResolution: (gl, loc, ctx) => gl.uniform2f(loc, ctx.width, ctx.height),
-                        iTime: (gl, loc, ctx) => gl.uniform1f(loc, t)
-                    }
+<script>
+    let t = 0;
+    requestAnimationFrame(function update() {
+        t += 1 / 120;
+        requestAnimationFrame(update);
+    });
+    shaderWebBackground.shade({
+        shaders: {
+            image: {
+                uniforms: {
+                    iResolution: (gl, loc, ctx) => gl.uniform2f(loc, ctx.width, ctx.height),
+                    iTime: (gl, loc, ctx) => gl.uniform1f(loc, t)
                 }
             }
-        });
-    </script>
+        }
+    });
+</script>
+
 </html>
