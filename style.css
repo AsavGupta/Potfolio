@@ -376,6 +376,7 @@ section {
     border-radius: 2rem;
     border: var(--grey) 0.1rem solid;
     border-color: var(--dark-grey);
+    backdrop-filter: blur(10px);
     text-align: center;
 }
 
