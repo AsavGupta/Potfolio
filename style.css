@@ -462,6 +462,10 @@ article .icon {
     position: relative;
 }
 
+.project-description {
+    margin: .5rem;
+}
+
 .color-container {
     border-color: var(--light-grey);
     background-color: rgb(255, 255, 255, .4);
@@ -475,6 +479,7 @@ article .icon {
 
 .project-title {
     margin: 1rem;
+    margin-bottom: .25rem;
     color: var(--black);
 }
 
