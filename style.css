@@ -93,6 +93,8 @@ a:hover {
 }
 
 
+
+
 /* HAMBURGER MENU */
 
 #hamburger-nav {
@@ -264,6 +266,17 @@ section {
     justify-content: center;
     margin-top: 1rem;
     gap: 1rem;
+}
+
+#buzz-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.buzz-icon {
+    height: 6rem;
+    transform: rotate(5deg)
 }
 
 
