@@ -252,7 +252,13 @@ section {
 
 .section__text__p2 {
     font-size: 1.5rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.25rem;
+    color: var(--dark-grey);
+}
+
+.section__text__p3 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
     color: var(--dark-grey);
 }
 
