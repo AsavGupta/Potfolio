@@ -184,7 +184,6 @@ section {
     height: 96vh;
     margin: 0 10rem;
     box-sizing: border-box;
-    min-height: fit-content;
 }
 
 .section-container {
@@ -466,10 +465,24 @@ article .icon {
 
 #projects {
     position: relative;
+    height: auto;
+    min-height: 96vh;
 }
 
 .project-description {
     margin: .5rem;
+}
+
+#projects .about-containers {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2rem;
+    max-width: 900px;
+    margin: 2rem auto;
+}
+
+#projects .details-container {
+    max-width: none;
 }
 
 .color-container {
