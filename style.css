@@ -400,7 +400,7 @@ section {
 
 .section-container {
     gap: 4rem;
-    height: 80%;
+    height: 70%;
 }
 
 .section__pic-container {
@@ -435,7 +435,7 @@ section {
 }
 
 .experience-details-container {
-    display: flew;
+    display: flex;
     justify-content: center;
     flex-direction: column;
 }
